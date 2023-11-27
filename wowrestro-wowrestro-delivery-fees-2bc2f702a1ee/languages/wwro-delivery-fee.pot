@@ -1,0 +1,244 @@
+# Copyright (C) 2022 MagniGenie
+# This file is distributed under the same license as the WOWRestro - Delivery Fee plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WOWRestro - Delivery Fee 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wowrestro-delivery-fees\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-21T16:09:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wwro-delivery-fee\n"
+
+#. Plugin Name of the plugin
+msgid "WOWRestro - Delivery Fee"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add custom delivery fee based on Zip / Location for your store."
+msgstr ""
+
+#. Author of the plugin
+msgid "MagniGenie"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:25
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:81
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:184
+#: includes/class-wowrestro-delivery-fee.php:69
+msgid "Delivery Fee"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:83
+msgid "Fee amount for the distance range."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:87
+msgid "Distance in KM"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:89
+msgid "Enter distance range within which the delivery fee would be applicable. eg: 5-20"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:93
+msgid "Free Delivery Fee"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:95
+msgid "Enter minimum order amount below which the delivery fee would be applicable. If no amount has been set then the default amount would be taken into consideration."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:99
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:202
+msgid "Min Order Amount"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:101
+msgid "Enter minimum order amount below which the customer could not able to place the order."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:105
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:208
+msgid "Action"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:156
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:260
+msgid "Add New Fee"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:186
+msgid "Fee amount for the zip/postal codes."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:190
+msgid "ZIP/Postal Codes"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:192
+msgid "Enter zip/postal codes separated by comma(,)"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:196
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:494
+msgid "Free Delivery Amount"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:198
+msgid "Enter order amount below which the delivery fee would be applicable."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:204
+msgid "Enter minimum order amount below which the customer could not able to place the order. If no amount has been set then the default amount would be taken into consideration."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:305
+msgid "eg: 5-20"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:306
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:370
+msgid "Delivery Fee Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:377
+msgid "Enable Delivery Fee"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:384
+msgid "ZIP/Postal code input placeholder"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:385
+msgid "Enter the placeholder text that would appear for the input field of zip/postal code."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:391
+msgid "Error message for unavailable zip/postal code/distance"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:397
+msgid "Select delivery fee method"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:398
+msgid "Please select how would you like to charge the delivery fee."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:403
+msgid "Zip Based"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:404
+msgid "Location Based"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:411
+msgid "Zip/Postal based Delivery Fee options"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:419
+msgid "Location based Delivery Fee options"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:427
+msgid "Google Map API Key"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:428
+msgid "Enter google map api key. You can get your google map api from here <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\" target=\"_blank\">https://developers.google.com/maps/documentation/javascript/get-api-key</a>"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:436
+msgid "Enter Checkout Full address field placeholder."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:437
+msgid "Enter the placeholder for autocomplete address field on checkout page."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:440
+msgid "Enter your full address"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:446
+msgid "Store Location"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:447
+msgid "You can drag the marker to set your exact location"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:455
+msgid "Set Location"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:463
+msgid "Location"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:471
+msgid "Store Lat-Long"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:479
+msgid "Distance unit"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:480
+msgid "Select distance unit what you want to use for distance units."
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:485
+msgid "KM"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:486
+msgid "Miles"
+msgstr ""
+
+#: includes/admin/settings/class-wowrestro-settings-delivery-fee.php:495
+msgid "Enter the total amount above which the customer should get free delivery."
+msgstr ""
+
+#. translators: %1$s: plugin link for wowrestro
+#: includes/class-wowrestro-delivery-fee-loader.php:148
+msgid "Delivery Fee requires <a href=\"%1$s\" target=\"_blank\"> WOWRestro </a> plugin to be installed. Please install and activate it"
+msgstr ""
+
+#. translators: %1$s: settings page link
+#: includes/class-wowrestro-delivery-fee-loader.php:164
+msgid "<a href=\"%1$s\">Settings</a>"
+msgstr ""
+
+#: includes/class-wowrestro-delivery-fee.php:72
+msgid "Can't access your location"
+msgstr ""
+
+#: includes/class-wowrestro-delivery-fee.php:141
+msgid "Please check your address."
+msgstr ""
+
+#: includes/class-wowrestro-delivery-fee.php:365
+msgid "Delivery Address"
+msgstr ""
+
+#: includes/class-wowrestro-delivery-fee.php:366
+msgid "Get Directions"
+msgstr ""
+
+#: includes/class-wowrestro-delivery-fee.php:394
+msgid "Please enter your zip/postal code"
+msgstr ""
+
+#: includes/class-wowrestro-delivery-fee.php:465
+msgid "Please enter your location"
+msgstr ""

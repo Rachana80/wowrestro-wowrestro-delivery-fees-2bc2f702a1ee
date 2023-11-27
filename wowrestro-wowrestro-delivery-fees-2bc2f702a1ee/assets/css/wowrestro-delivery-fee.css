@@ -1,0 +1,35 @@
+.rpress-delivery-zone-wrapper input[type=text] {
+  border: 1px solid #bbb;
+  text-align: left;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px 7px;
+}
+#wowrestro_cart_fee_deliver_fee td {
+  padding: 4px 9px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+}
+.rpress-cart .wowrestro_delivery_fee{
+	font-size: 14px;
+}
+.rpress-cart .wowrestro_delivery_fee span {
+  float: right;
+}
+.wowrestro-delivery-zone-wrapper .wowrestro-input {
+  border-radius: 5px;
+  width: 100%;
+  margin: 0px;
+}
+body.checkout-service-pickup-option #wowrestro_checkout_full_address_field_field, body.checkout-service-pickup-option #wowrestro_delivery_checkout_full_address{
+  display: none!important;
+}
+div#wowrestro_delivery_checkout_full_address {
+  position: relative;
+}
+a.wowrestro-get-geo-location {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}

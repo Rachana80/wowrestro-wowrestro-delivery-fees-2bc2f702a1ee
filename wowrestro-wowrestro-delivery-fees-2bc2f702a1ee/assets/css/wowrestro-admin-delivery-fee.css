@@ -1,0 +1,140 @@
+table.form-table .wowrestro-headings {display: none !important;}
+
+div.wowrestro-delivery-fee-wrapper {padding: 0px; margin-top: -15px; }
+
+.wowrestro-delivery-fee-wrapper span { margin-bottom: 10px; display: block; color: #808080; font-size: 12px; font-style: italic;}
+
+table#wowrestro_delivery_fees thead tr th {display: inline-block !important;}
+
+.wowrestro-notice {font-weight: normal; font-style: italic;}
+.wowrestro-delivery-fee-wrapper span.wwro-st-description {display:block; margin-top: 20px;}
+
+.settings-row.delivery-fee-table{ margin-top: 20px; }
+
+.wowrestro-delivery-fee-wrapper .settings-row {
+  margin-bottom: 20px;
+}
+.wowrestro-delivery-fee-wrapper h4 {
+  margin: 10px 0px;
+}
+.rp_xl_field {
+  width: 35%;
+}
+table#wowrestro_delivery_fees { margin-bottom: 12px; }
+table#wowrestro_delivery_fees thead th {padding: 10px;}
+table#wowrestro_delivery_fees thead th, table#wowrestro_delivery_fees tbody td, table#wowrestro_delivery_fees tfoot td {
+  width: 30%;
+}
+.delivery-fee-table {
+  width: 80%;
+}
+.wwro-pull-right  {
+  float: right;
+}
+
+#wowrestro_delivery_fees span.help-tag {
+  font-size: 12px;
+  font-style: italic;
+}
+#wowrestro_delivery_fees tbody input[type=text], #wowrestro_delivery_fees tbody input[type=number], #wowrestro_delivery_location_fees tbody input[type=text], #wowrestro_delivery_location_fees tbody input[type=number] {
+  width: 100% !important;
+}
+
+#_wowrestro_store_latlng {
+  display: none;
+}
+
+.settings-row.wwro-delivery-method label {
+  margin-right: 15px;
+}
+
+.wwro-delivery-units {
+  width: 100px;
+}
+
+.wwro-d-none {
+  display: none !important;
+}
+
+#wowrestro_map_canvas { 
+  height: 400px; 
+  width: 100%; 
+  position: relative;
+  overflow: hidden;
+  top: 59px;
+  margin-bottom: 80px;
+  border: 10px solid #FFF;
+  box-shadow: 2px 1px 9px #999;
+}
+
+#wowrestro-floating-panel {
+  width: 30%;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+input#wowrestro-address {
+  width: 70%;
+  float: left;
+  height: 35px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 5px;
+}
+
+#wowrestro-location-submit {
+  padding: 6px 7px;
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
+  height: 35px;
+}
+
+div.location-based-settings.store-location-settings {
+  position: relative;
+}
+
+.settings-row.wowrestro-floating-panel-help {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  top: 60px;
+}
+a.wwro-delivery-fee-remove {
+  background-image: url(../images/remove.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 31px;
+  display: block;
+  background-color: #007cba;
+  border-radius: 3px;
+  background-size: 39%;
+}
+a.wwro-delivery-fee-remove:hover {
+  background-color: #266da2;
+}
+.delivery-table-footer {
+  background-color: #eaeaea;
+}
+.wowrestro-delivery-fee-wrapper input[type='text'], .wowrestro-delivery-fee-wrapper input[type='number'] {
+  height: 38px !important;
+}
+#wowrestro_delivery_location_fees td, #wowrestro_delivery_fees td {
+  vertical-align: top;
+}
+
+#wowrestro_delivery_location_fees td strong, #wowrestro_delivery_fees td strong {
+  display: block;
+  margin-bottom: 5px;
+}
